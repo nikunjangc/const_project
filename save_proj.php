@@ -26,9 +26,9 @@ if (isset($_POST)) {
 try{
 
  $mysquli= NEW MySQLi('localhost','root','','db_project_construction');
- $query_me = "call addnewproject ('$proj_name','$proj_descrip','$proj_type','$proj_start_date,'$proj_comp_date','$proj_design_team','$proj_building_value','$proj_location','$proj_service_provided','$proj_design_cost','$proj_const_cost','$proj_FE_cost','$proj_management_cost','$proj_overview','$proj_status')";
+ $query_me = "call addnewproject ('$proj_name','$proj_descrip','$proj_type','$proj_start_date','$proj_comp_date','$proj_design_team','$proj_building_value','$proj_location','$proj_service_provided','$proj_design_cost','$proj_const_cost','$proj_FE_cost','$proj_management_cost','$proj_overview','$proj_status')";
    $queryadd= $mysquli->query($query_me);
-   print_r($queryadd);
+   print_r($query_me);
    die();
 }
 catch(Exception $ex){
