@@ -1,0 +1,41 @@
+div.headcontainer {
+    position: static;
+    float: center;
+    margin-top: 40px;
+}
+
+img.lagcclogo {
+    position: static;
+    float: center;
+    width: 90px;
+    height: 90px;
+    padding-left: 100px
+}
+
+img.officename {
+    position: static;
+    float: center;
+    padding-top: 10px;
+    padding-left: 300px;
+    width: 205px;
+    height: 75px;
+}
+
+div.container {
+    margin: 10px;
+    padding-left: 200px;
+}
+
+input.textclass {
+    margin-top: 5px;
+    height: 18px;
+}
+
+button {
+    margin-top: 9px;
+    margin-left: 83px;
+    width: 90px;
+    height: 24px;
+    background-color: rgb(246, 0, 0);
+    color: white;
+}
